@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -I include
 OBJ = ./src/cliente.o src/funcionario.o src/quarto.o src/estadia.o src/main.o
-EXEC = hotel
+EXEC = HotelDescansoGarantido
 
 all: $(EXEC)
 

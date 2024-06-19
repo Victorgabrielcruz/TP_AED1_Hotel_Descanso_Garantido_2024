@@ -10,7 +10,6 @@ O projeto está organizado da seguinte forma:
 
 ```
 HotelDescansoGarantido/
-├── bin/
 ├── include/
 │   ├── cliente.h
 │   ├── funcionario.h
@@ -32,7 +31,6 @@ HotelDescansoGarantido/
 └── Makefile
 ```
 
-- **bin/**: Diretório onde o executável final será colocado após a compilação.
 - **include/**: Diretório contendo todos os arquivos de cabeçalho (.h).
 - **src/**: Diretório contendo todos os arquivos fonte (.c).
 - **data/**: Diretório onde são armazenados os arquivos de dados (.dat).
@@ -98,8 +96,8 @@ Para compilar e executar o projeto, siga os passos abaixo:
 
 1. Navegue até o diretório raiz do projeto.
 2. Execute o comando `make` para compilar o projeto.
-3. O executável será gerado no diretório `bin/`.
-4. Execute o comando `./bin/HotelDescansoGarantido` para iniciar o programa.
+3. O executável será gerado na raiz do projeto.
+4. Execute o comando `./HotelDescansoGarantido` para iniciar o programa.
 
 ## Exemplo de Uso
 
@@ -107,13 +105,4 @@ Para compilar e executar o projeto, siga os passos abaixo:
 2. Escolha a opção desejada no menu principal.
 3. Siga as instruções exibidas na tela para cadastrar, consultar ou gerenciar os registros.
 
-## Contribuição
-
-Se desejar contribuir para este projeto, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature ou correção (`git checkout -b feature/AmazingFeature`).
-3. Faça commit de suas alterações (`git commit -m 'Add some AmazingFeature'`).
-4. Envie para o branch original (`git push origin feature/AmazingFeature`).
-5. Abra um Pull Request.
 
